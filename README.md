@@ -1,16 +1,61 @@
-# filazero
+# 📱 FilaZero — Documentação do Projeto
 
-A new Flutter project.
+Aplicativo desenvolvido como Projeto Integrador do curso de **Tecnologia em Sistemas Inteligentes – FATEC Pompeia**.  
+O FilaZero busca oferecer uma alternativa digital para o processo de agendamento de consultas no SUS.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📖 Visão Geral
 
-A few resources to get you started if this is your first Flutter project:
+O **FilaZero** foi desenvolvido com o objetivo de **digitalizar o processo de agendamento de consultas médicas no SUS**, oferecendo uma plataforma intuitiva e acessível que pode reduzir filas presenciais e melhorar a experiência dos usuários.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+O projeto envolve:
+- Um **aplicativo Flutter** para os pacientes.  
+- Uma **API REST em Node.js** que faz a comunicação com o banco de dados SQL.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### **Frontend — Flutter**
+- Flutter 3.x  
+- Dart  
+- Material Design  
+- Consumo de API via HTTP  
+- Gerenciamento de estado
+
+### **Backend — Node.js**
+- Node.js 18+  
+- Express.js  
+- JWT para autenticação  
+- MariaDB 
+- ORM (Prisma)  
+- Dotenv para variáveis de ambiente  
+
+---
+
+## ✨ Funcionalidades Principais
+
+- Cadastro e login com CPF/SUS  
+- Listagem de especialidades  
+- Seleção de médicos disponíveis  
+- Agendamento de consultas  
+- Notificações sobre consultas  
+- Histórico de atendimentos  
+- Área de perfil do usuário  
+
+---
+
+## 📱 Instalação do App (Flutter)
+
+### **Pré-requisitos**
+- Flutter instalado  
+- SDK configurado  
+- Dispositivo físico ou emulador  
+
+### **Passos**
+```bash
+git clone https://github.com/seu-repo/fila-zero.git](https://github.com/Felipe-Takayuki/FilaZero
+cd fila-zero/app
+flutter pub get
+flutter run
