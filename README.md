@@ -55,7 +55,7 @@ O projeto envolve:
 
 ### **Passos**
 ```bash
-git clone https://github.com/seu-repo/fila-zero.git](https://github.com/Felipe-Takayuki/FilaZero
+git clone git@github.com:Felipe-Takayuki/FilaZero.git
 cd fila-zero/app
 flutter pub get
 flutter run
